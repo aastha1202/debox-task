@@ -152,7 +152,7 @@ function App() {
                 type="text"
                 placeholder="name"
                 onChange={(e) => setFileName(e.target.value)}
-                onKeyDown={(e) => handleClick(e, item.index, files)}
+                onKeyDown={(e) => handleClick(e, item.index, items)}
               />
             )}
           </div>
